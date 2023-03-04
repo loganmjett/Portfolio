@@ -1,47 +1,63 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Coffee CSS</title>
+    <title>Logan Jett's Portfolio</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Lora&display=swap"
       rel="stylesheet"
     />
-    <style>
-      body {
-        font-family: "Lora", serif;
-      }
-    </style>
   </head>
   <body>
-    <h1>Header 1</h1>
-    <h2>Header 2</h2>
-    <h3>Header 3</h3>
-    <h4>Header 4</h4>
-    <h5>Header 5</h5>
-    <h6>Header 6</h6>
+    <header>
+      <img src="PLFF_selfie.jpg" alt="My Picture" />
+      <h1>Logan Jett</h1>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#resume">Resume</a></li>
+          <li><a href="#contact">Find Me</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+        </ul>
+      </nav>
+    </header>
 
-    <p>I like my CSS like I like my coffee... flowing.</p>
+    <main>
+      <section id="about">
+        <h2>About Me</h2>
+        <p>Write a brief description of yourself here.</p>
+      </section>
 
-    <img
-      src="https://www.tastingtable.com/img/gallery/coffee-brands-ranked-from-worst-to-best/l-intro-1645231221.jpg"
-      alt="Coffee"
-    />
-    <img
-      src="https://www.tastingtable.com/img/gallery/coffee-brands-ranked-from-worst-to-best/l-intro-1645231221.jpg"
-      alt="Coffee (rounded)"
-      class="rounded"
-    />
+      <section id="resume">
+        <h2>Resume</h2>
+        <embed
+          src="Logan_Jett_Resume.pdf"
+          type="application/pdf"
+          width="100%"
+          height="600px"
+        />
+      </section>
 
-    <button class="normal">Normal button</button>
-    <button class="disabled" disabled>Disabled button</button>
-    <button class="success">Success</button>
-    <button class="error">Error Button</button>
+      <section id="contact">
+        <h2>Find Me</h2>
+        <p>Include your contact information here.</p>
+        <ul>
+          <li>Email: loganmjett@gmail.com</li>
+          <li>
+            <a href="https://www.linkedin.com/in/loganjett/">LinkedIn</a>
+          </li>
+          <li>
+            <a href="https://github.com/loganmjett">GitHub</a>
+          </li>
+        </ul>
+      </section>
 
-    <a
-      href="https://coolors.co/palette/ede0d4-e6ccb2-ddb892-b08968-7f5539-9c6644"
-      >Color Palette</a
-    >
+      <section id="gallery">
+        <h2>Gallery</h2>
+        <!-- Leave this section blank for now -->
+      </section>
+    </main>
   </body>
 </html>
+
