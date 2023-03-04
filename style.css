@@ -1,126 +1,144 @@
 * {
-    box-sizing: border-box;
-  }
-  
-  /* Background Color */
-  body {
-    background-color: #ede0d4;
-  }
-  
-  /* Typography */
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    font-family: "Lora", serif;
-    font-weight: bold;
-    margin-bottom: 1rem;
-  }
-  
-  h1 {
-    font-size: 2.5rem;
-  }
-  
-  h2 {
-    font-size: 2rem;
-  }
-  
-  h3 {
-    font-size: 1.5rem;
-  }
-  
-  h4 {
-    font-size: 1.2rem;
-  }
-  
-  h5 {
-    font-size: 1rem;
-  }
-  
-  h6 {
-    font-size: 0.8rem;
-  }
-  
-  p {
-    font-family: "Lora", serif;
-    font-size: 1rem;
-    line-height: 1.5;
-    margin-bottom: 1rem;
-  }
-  
-  /* All Images */
-  img {
-    max-width: 100%;
-    height: auto;
-    margin-bottom: 1rem;
-    padding: 0.5rem;
-    border: 3px solid #9c6644;
-    background-color: #ddb892;
-  }
-  
-  /* Rounded Images */
-  img.rounded {
-    border-radius: 50%;
-    overflow: hidden;
-    display: inline-block;
-  }
-  
-  /* All Buttons */
-  button {
-    font-family: "Roboto", sans-serif;
-    font-size: 1rem;
-    border-radius: 4px;
-    border: none;
-    padding: 0.5rem 1rem;
-    cursor: pointer;
-  }
-  
-  /* Normal Button */
-  button.normal {
-    background-color: #7f5539;
-    color: white;
-  }
-  
-  button.normal:hover {
-    background-color: #b08968;
-  }
-  
-  /* Disabled Button */
-  button.disabled {
-    background-color: #e0e0e0;
-    color: #a9a9a9;
-    cursor: not-allowed;
-  }
-  
-  /* Success Button */
-  button.success {
-    background-color: #034694;
-    color: white;
-  }
-  
-  button.success:hover {
-    background-color: #dba111;
-  }
-  
-  /* Error Button */
-  button.error {
-    background-color: #ee242c;
-    color: white;
-  }
-  
-  button.error:hover {
-    background-color: #dba111;
-  }
-  
-  /* Link styles */
-  a {
-    color: #b08968;
-    text-decoration: none;
-  }
-  
-  a:hover {
-    text-decoration: underline;
-  }
-  
+  box-sizing: border-box;
+}
+
+/* Background Color */
+body {
+  background-color: #ede0d4;
+}
+
+/* Typography */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Lora", serif;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1.2rem;
+}
+
+h5 {
+  font-size: 1rem;
+}
+
+h6 {
+  font-size: 0.8rem;
+}
+
+p {
+  font-family: "Lora", serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+/* All Images */
+img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  border: 3px solid #9c6644;
+  background-color: #ddb892;
+}
+
+/* Rounded Images */
+img.rounded {
+  border-radius: 50%;
+  overflow: hidden;
+  display: inline-block;
+}
+
+/* All Buttons */
+button {
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  border-radius: 4px;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+/* Normal Button */
+button.normal {
+  background-color: #7f5539;
+  color: white;
+}
+
+button.normal:hover {
+  background-color: #b08968;
+}
+
+/* Disabled Button */
+button.disabled {
+  background-color: #e0e0e0;
+  color: #a9a9a9;
+  cursor: not-allowed;
+}
+
+/* Success Button */
+button.success {
+  background-color: #034694;
+  color: white;
+}
+
+button.success:hover {
+  background-color: #dba111;
+}
+
+/* Error Button */
+button.error {
+  background-color: #ee242c;
+  color: white;
+}
+
+button.error:hover {
+  background-color: #dba111;
+}
+
+/* Link styles */
+a {
+  color: #b08968;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 20px;
+}
+
+.card {
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+  padding: 20px;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  transform: translateY(-2px);
+}
